@@ -16,13 +16,10 @@ def numbers(*args):
     for x in args:
         if type(x)!=int and type(x)!=float:
             finalResult=False
-            return finalResult
-        else:
-            finalResult=True
     return finalResult
 
 print(numbers(1, 4, 3, 2, 5))
 print(numbers(1, "a", 3))
 print(numbers(1, 3, None))
 print(numbers(1.23, 5.6, 3.2))
-                    
+                  
