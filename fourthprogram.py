@@ -6,7 +6,7 @@ def chocolate_program(x,y):
     if x < 0 or y <0:
         return 0
     else:
-        return y * (x-1 )
+        return x*y-1
 
-print(chocolate_program(2,-4))
+print(chocolate_program(4,2))
     
